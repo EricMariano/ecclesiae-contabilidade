@@ -1,7 +1,7 @@
 import { GalleryVerticalEnd } from "lucide-react"
-import { LoginForm } from "@/app/c-login-form"
+import { ForgotPassForm } from "@/app/forgot-password/c-forgot-pass-form"
 
-export default function LoginPage() {
+export default function ForgotPassPage() {
   return (
     <div className="grid min-h-screen">
       <div className="flex flex-col gap-4 p-6 md:p-10">
@@ -15,7 +15,7 @@ export default function LoginPage() {
         </div>
         <div className="flex flex-1 items-center justify-center">
           <div className="w-full max-w-xs">
-            <LoginForm />
+            <ForgotPassForm />
           </div>
         </div>
       </div>
